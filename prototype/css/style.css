@@ -76,7 +76,7 @@ h1{
     width: 50%;
     height: 50px;
 
-    transition: 1s;
+    transition: .01s;
     transform-style: preserve-3d;
     cursor: pointer;
 
