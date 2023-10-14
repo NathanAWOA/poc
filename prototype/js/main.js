@@ -7,3 +7,8 @@ card.addEventListener("click", function(e) {
     card.classList.toggle('is-flipped')
     finish.classList.toggle('is-clicked')
 })
+
+
+gg.addEventListener("click", function(e) {
+    return href = '../pages/success.html'
+})

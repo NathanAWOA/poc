@@ -59,6 +59,7 @@ h1{
     justify-content: center;
     background-color: green;
     transform: rotateY(180deg);
+    color: white;
 }
 
 .btn {
@@ -85,9 +86,11 @@ h1{
 }
 
 .btn-f, .btn-gg {
-    width: 50%;
+    width: 100%;
     height: 50px;
     border-radius: 15px;
+
+    color: white;
 }
 
 .btn-f{
@@ -100,4 +103,12 @@ h1{
 
 .is-clicked{
     visibility:  visible;
+}
+
+a {
+    text-decoration: none;
+
+    width: 50%;
+    height: 50px;
+    border-radius: 15px;
 }
