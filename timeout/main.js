@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")({sigint:true})
 let palavra = ["私", "あなた", "私達", "あなた達"]
-let peso = [1, 2, 3, 4]
+// let peso = [1, 2, 3, 4]
 
 let teste = prompt(`digite um numero entre 1 e 4: \n
 1 = 私 em 3 segundos \n
@@ -11,6 +11,10 @@ let teste = prompt(`digite um numero entre 1 e 4: \n
 console.log(teste)
 console.log(typeof teste)
 
+function segundos(time){
+    return time * 1000
+}
+
 teste2 = + teste
 
 console.log(teste2)
@@ -19,7 +23,7 @@ console.log(typeof teste2)
 if(teste2 === 1) {
     setTimeout(() => {
         console.log(palavra[0])
-    },3000);
+    },segundos(3));
 }
 
 if(teste2 === 2) {
